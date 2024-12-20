@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": 1,
+    "customer_id": 101,
+    "amount": 250.75,
+    "status": "pending"
+  },
+  {
+    "id": 2,
+    "customer_id": 102,
+    "amount": 150.50,
+    "status": "pending"
+  },
+  {
+    "id": 3,
+    "customer_id": 103,
+    "amount": 320.00,
+    "status": "completed"
+  },
+  {
+    "id": 4,
+    "customer_id": 999,
+    "amount": 180.40,
+    "status": "pending"
+  }
+]

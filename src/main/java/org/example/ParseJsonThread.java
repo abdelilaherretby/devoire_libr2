@@ -124,7 +124,7 @@ public class ParseJsonThread {
             stmt.setDouble(3, order.getDouble("amount"));
             stmt.setInt(4, order.getInt("customer_id"));
             stmt.setString(5, order.getString("status"));
-            stmt.executeUpdate();
+       stmt.executeUpdate();
         } catch (SQLException se) {
             se.printStackTrace();
         }
